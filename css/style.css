@@ -12,6 +12,7 @@ border-radius: 8px;
 body {
 font-family: 'Times New Roman', Times, serif;
 background-color: rgba(68, 197, 154, 0.123);
+max-width: 1470px;
 }
 
 h1{
@@ -41,7 +42,7 @@ margin-right: auto;
 }
 
 .barra_menu{
-width: 1457px;
+width: 1470px;
 background-color: black;
 margin-top: 0px;
 padding: 0px;
@@ -85,6 +86,12 @@ max-width: 1370px;
 margin-left: 40px;
 }
 
+.main{
+display: flex;
+flex-direction: column;
+gap: px;
+}
+
 footer{
 background-color: black;
 color: white;
@@ -96,8 +103,3 @@ box-shadow: 0px 4px 8px 1px;
 margin-bottom: 0px;
 }
 
-.main{
-display: flex;
-flex-direction: column;
-gap: px;
-}
