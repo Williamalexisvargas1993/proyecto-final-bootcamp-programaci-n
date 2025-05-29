@@ -1,0 +1,103 @@
+.header {
+background-image: url(../img/limpias/header.jpg);
+height: 90vh;
+background-position: center;
+background-size: cover;
+}
+
+.logo {
+border-radius: 8px;
+}
+
+body {
+font-family: 'Times New Roman', Times, serif;
+background-color: rgba(68, 197, 154, 0.123);
+}
+
+h1{
+color:black;
+font-size:60px ;
+}
+
+h2{
+font-size: 40px;
+text-align: center;
+margin: 15px;
+}
+
+h3{
+font-size: 30px;
+text-align: center;
+padding: 0px;
+margin: 10px;
+}
+
+.imagenes_secundarias{
+border-radius: 0%;
+width: 447px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.barra_menu{
+width: 1457px;
+background-color: black;
+margin-top: 0px;
+padding: 0px;
+position: fixed;
+border-radius: 15px;
+padding-top: 2px;
+box-shadow: 0px 4px 8px 1px;
+}
+
+.titulo{
+height: 83%;
+}
+
+.anuncios a {
+color: white;
+text-decoration: none;
+font-size: 24px;
+padding: 15px;
+transition: 0.9s;
+padding-bottom: px;
+}
+
+.anuncios a:hover {
+color: rgb(4, 246, 121);
+font-weight: bold;
+}
+
+.fosiles{
+background-color: white;
+display: flex;
+gap: 15px;
+max-width: 1370px;
+margin-left: 40px;
+}
+
+.limpias{
+background-color: white;
+display: flex;
+gap: 15px;
+max-width: 1370px;
+margin-left: 40px;
+}
+
+footer{
+background-color: black;
+color: white;
+text-align: center;
+font-size: 24px;
+border-radius: 15px;
+padding: 0.2px;
+box-shadow: 0px 4px 8px 1px;
+margin-bottom: 0px;
+}
+
+.main{
+display: flex;
+flex-direction: column;
+gap: px;
+}
