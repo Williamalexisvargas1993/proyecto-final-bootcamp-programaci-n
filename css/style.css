@@ -32,11 +32,12 @@ font-size: 30px;
 text-align: center;
 padding: 0px;
 margin: 10px;
+padding-bottom: 15px;
 }
 
 .imagenes_secundarias{
-border-radius: 15%;
-width: 447px;
+border-radius: 50%;
+width: 400px;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -75,24 +76,42 @@ font-weight: bold;
 .main{
 display: flex;
 flex-direction: column;
-gap: 1 px;
+gap: 1px;
 }
 
 
 .fosiles{
-background-color: white;
+background-color: rgb(207, 208, 208);
 display: flex;
-gap: 15px;
+gap: 25px;
 max-width: 1370px;
 margin-left: 50px;
+box-shadow: 0px 4px 8px 0px;
+padding-left: 20px;
+border-radius: 15px;
 }
 
 .limpias{
-background-color: white;
+background-color: rgb(38, 214, 123);
 display: flex;
-gap: 15px;
+gap: 25px;
 max-width: 1370px;
 margin-left: 50px;
+box-shadow: 0px 4px 8px 0px;
+padding-left: 20px;
+border-radius: 15px;
+}
+
+.cliqueables{
+text-decoration: none;
+color: #000;
+transition: 0.6s;
+}
+
+.cliqueables:hover{
+color:black;
+font-weight:bold;
+font-size:larger;
 }
 
 
@@ -105,6 +124,7 @@ border-radius: 15px;
 padding: 0.2px;
 box-shadow: 0px 4px 8px 1px;
 margin-bottom: 0px;
+margin-top: 15px;
 }
 
 /* a partir de aca es el css para nosotros.html */
