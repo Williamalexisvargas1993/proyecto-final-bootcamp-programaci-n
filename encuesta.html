@@ -13,45 +13,70 @@
     <main class="form-container">
         <form action="https://formspree.io/f/xdkzkawg" method="POST">
             <fieldset>
-            <legend>informacion personal</legend>
-            <label for="name">Nombre Completo:</label>
-            <input type="text" id="name" name="name"
-            required placeholder="ingresa tu nombre">
-            <br>
+                <legend>informacion personal</legend>
+                <label for="name">Nombre Completo:</label>
+                <input type="text" id="name" name="name"
+                required placeholder="ingresa tu nombre">
+                <br>
 
-            <label for="email">correo electronico: </label>
-            <input type="email" id="email" name="responder_a"
-            required placeholder="ingresa tu correo eletronico">
-            <br>
-            <label for="localizacion">ubicacion (Ciudad/pais):</label>
-            <input type="text" id="localizacion" name="localizacion"
-            required placeholder="ingresa tu ubicacion">
+                <label for="email">correo electronico: </label>
+                <input type="email" id="email" name="responder_a"
+                required placeholder="ingresa tu correo eletronico">
+                <br>
+                <label for="localizacion">ubicacion (Ciudad/pais):</label>
+                <input type="text" id="localizacion" name="localizacion"
+                required placeholder="ingresa tu ubicacion">
             </fieldset>
             
             <fieldset>
-            <legend>consumo energetico actual</legend>
-            <label for="consumo_energia">consumo de energia mensual (kwh): </label>
-            <input type="text" id="consumo_mensual" name="consumo_mensual" required placeholder="el cosumo promedio de una casa es de 157 kwh"
-            <label for="fuente_energia">fuentes de energia utilizadas</label>
-            <select name="fuente_energia" id="fuente_energia" required>
-            <option value="">selecciona una opcion</option>
-            <option value="electricidad">electricidad</option>
-            <option value="gas">gas</option>
-            <option value="eolica">eolica</option>
-            <option value="solar">solar</option>
-            <option value="otra">otra</option>
-            </select>
+                <legend>grado de satisfación</legend>
+                <label for="grado_satisfaccion">a continuación marca el grado de satisfaccion por parte de la pagina </label>
+                    <select name="grado_satisfaccion" id="grado_satisfaccion" required>
+                    <option value="">selecciona una opcion</option>
+                    <option value="1">1. Muy desagradable</option>
+                    <option value="2">2. desagradable</option>
+                    <option value="3">3. Me es indiferente</option>
+                    <option value="4">4. Agradable</option>
+                    <option value="5">5. muy agradable</option>
+                </select>
+                <br>
+                <label for="opinion_personal">En el recuadro siguiente puede darnos su opinion personal sobre la pagina (opcional)</label>
+                    <input type="text" name="opinion_personal" id="opinion_personal">
             </fieldset>
 
             <fieldset>
-                <legend>nivel de interes en energias renovables</legend>
-            <label for="nivel_interes">Nivel de interes en energías renovables</label>
-            <select name="nivel_interes" id="nivel_interes" required>
+            <legend>nivel de interes en energias renovables</legend>
+                <label for="nivel_interes">Nivel de interes en energías renovables</label>
+                <select name="nivel_interes" id="nivel_interes" required>
                 <option value="">Seleccione una opción</option>
-                <option value="alto">Alto</option> 
-            <label for="disposicion">disposisión a adoptar energías renovables: </label>
-            <input type="radio" id="yes" name="disposicion" value="si" required class="radio-label">si
-            <input type="radio" id="no" name="disposicion" value="no" required class="radio-label">no    
+                <option value="muy_alto">Muy Alto</option>
+                <option value="alto">Alto</option>
+                <option value="medio">Medio</option>
+                <option value="bajo">Bajo</option>
+                <option value="ninguno">Ninguno</option>
+                <label for="disposicion">disposisión a adoptar energías renovables: </label>
+                <input type="radio" id="yes" name="disposicion" value="si" required class="radio-label">si
+                <input type="radio" id="no" name="disposicion" value="no" required class="radio-label">no
+                <br>
+                <label for="fuente_energia">fuentes de energia utilizadas</label>
+                <select name="fuente_energia" id="fuente_energia" required>
+                    <option value="">selecciona una opcion</option>
+                    <option value="electricidad">Energía Electrica</option>
+                    <option value="gas">Gas Natural</option>
+                    <option value="eolica">Energía Eolica</option>
+                    <option value="solar"> Energía Solar</option>
+                    <option value="otra">otra</option>
+                </select>
+                <br>
+                
+                <label for="fuente_energia_futura">fuente de energía a la cual quisiera pasarse</label>
+                <select name="fuente_energia_futura" id="fuente_energia_futura" required>
+                    <option value="">selecciona una opcion</option>
+                    <option value="hidrogeno_verde">Hidrogeno Verde</option>
+                    <option value="eolica">Energía Eolica</option>
+                    <option value="solar">Energía Solar</option>
+                    <option value="otra">otra</option>
+                </select>
             </fieldset>
 
             <button type="submit">enviar encuesta</button>
