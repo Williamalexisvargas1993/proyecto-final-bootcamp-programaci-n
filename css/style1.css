@@ -1,0 +1,129 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color: #e6f7ff;
+color: black;
+margin: 0px;
+padding: 0px;
+line-height: 1.6;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+.header {
+background-image: url(../img/limpias/header.jpg);
+height: 90vh;
+max-width: 100%;
+background-position: center;
+background-size: cover;
+}
+
+.barra_menu{
+width: 1470px;
+background-color: black;
+position: fixed;
+border-radius: 15px;
+box-shadow: 0px 4px 8px 1px;
+}
+
+.titulo{
+height: 83%;
+}
+
+.anuncios{
+display: flex;
+padding-top: 4px;
+}
+
+.anuncios a{
+flex: 1;
+color: white;
+text-decoration: none;
+font-size: 24px;
+transition: 0.9s;
+}
+
+.anuncios a:hover {
+color: rgb(4, 246, 121);
+font-weight: bold;
+}
+
+.hipervinculos{
+text-decoration: none;
+color: black;
+
+}
+
+
+
+h1{
+margin: 0px;
+}
+
+.layout-grid{
+display: grid;
+grid-template-columns: 280px 1fr;
+gap: 20px;
+padding: 20px;
+flex: 1;
+}
+
+.sidebar{
+background-color: #92d3b2;
+padding: 22px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+height: fit-content;
+position: sticky;
+top: 90px;
+align-self: start;
+}
+
+.sidebar ul{
+list-style-type: none;
+padding-left: 0px;
+}
+
+.sidebar ul li{
+margin-bottom: 10px;
+}
+
+.sidebar ul li a{
+text-decoration: none;
+color: black;
+transition: 0.8s;
+}
+
+.sidebar ul li a:hover{
+color: #005299;
+font-weight: bold;
+}
+
+.main-content{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.proyecto{
+background-color: #f9b1b1;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.proyecto p{
+vertical-align: bottom;
+}
+
+.proyecto h2{
+vertical-align: top;
+}
+
+.footer{
+background-color: #006bb3;
+color: white;
+text-align: center;
+padding: 10px;
+margin-top: auto;
+}
+
